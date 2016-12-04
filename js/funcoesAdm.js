@@ -52,20 +52,15 @@ $.post( "editar.php", { busca: idBusca, tabela: 'tarefa', modo: 'buscaDados' })
 function alturaPagina() {
     altura = $(window).height();
     $('.menuLateral').css('height', altura);
-<<<<<<< HEAD
+
     $('.taverna,.perfil,.regras').css('height', altura-5);
-=======
     $('.taverna,.perfil').css('height', altura-5);
->>>>>>> ad1781fba7fccaedfed66e590d09450a13e90cc6
 
     $(window).resize(function () {
         altura = $(window).height();
         $('.menuLateral,.perfil').css('height', altura);
-<<<<<<< HEAD
         $('.taverna,.perfil,.regras').css('height', altura-5);
-=======
         $('.taverna,.perfil').css('height', altura-5);
->>>>>>> ad1781fba7fccaedfed66e590d09450a13e90cc6
     });
 }
 function menuLateral(){

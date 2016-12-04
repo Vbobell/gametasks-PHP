@@ -178,7 +178,6 @@ require_once("../regraNegocio/usuarioExperiencia.php");
 					</p>
 					<h2>Como funciona?</h2>
 					<p>
-<<<<<<< HEAD
 					Cada colaborador, será destinado para o seu reino(equipe ou projeto), a partir de sua função no reino, será atribuído a este colaborador uma classe, como por exemplo; um dba, receberá o título de mago, um desenvolvedor, recebe de guerrero e até mesmo um estagiário, receberá o de...goblin. Cada classe com sua história em meio a toda essa aventura.
 					</p>
 					<p>
@@ -190,9 +189,7 @@ require_once("../regraNegocio/usuarioExperiencia.php");
 					</p>
 					<p>
 					Experiência mensal, é utilizada para uma competição saudável entre os colaboradores da empresa. Todo mês este xp é zerado, dando a oportunidade para todos entrarem na competição e por fim ter uma boa colocação no rank. Este xp, após o final do mês é convertido de acordo com o nível do colaborador, para uma nova quantia de xp e acrescentado no xp carreira, assim não ficando muito angustiante a evolução dos colaboradores caso seu nível seja muito alto.
-=======
 					Cada colaborador, será destinado para o seu reino(equipe ou projeto), a partir de sua função no reino, será atribuído a este colaborador uma classe, como por exemplo; um dba, receberá o título de mago, um desenvolvedor, recebe de guerrero e até mesmo um estagiário, receberá o de...goblin. Cada classe com sua história em meio a toda essa aventura.	O mestre(gerente), criara as missões(tarefas) e irá atribuir elas a partir de sua classe, incluindo a quantidade de xp da tarefa. Nelas será dados status e será visto como esta o seu progresso.
->>>>>>> ad1781fba7fccaedfed66e590d09450a13e90cc6
 					</p>
 				</article>
 				</div>
@@ -216,10 +213,7 @@ require_once("../regraNegocio/usuarioExperiencia.php");
 		}
 		menuLateral();
 		botaoMenu();
-<<<<<<< HEAD
-=======
 		mostraPerfil();
->>>>>>> ad1781fba7fccaedfed66e590d09450a13e90cc6
 		mostraTextoPersonagem();
 	});   
 	</script>

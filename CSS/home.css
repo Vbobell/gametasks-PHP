@@ -21,7 +21,7 @@ button[type=submit]{
 }
 
 @media all and (max-width:767px){
-<<<<<<< HEAD
+
 body{
     background-size: cover;
 }
@@ -29,13 +29,11 @@ header.login{
     background-size: 140% 100%;
     background-position: -65px 0;
     height: 85%;
-=======
-
+}
 header.login{
     background-size: 140% 100%;
     background-position: -75px 0;
     height: 80%;
->>>>>>> ad1781fba7fccaedfed66e590d09450a13e90cc6
     top: 5%;
     left: 0%;
     padding: 0;
@@ -53,10 +51,8 @@ header.login form{
 button[type=submit]{
     font-size: 1.8em;
 }
-<<<<<<< HEAD
+
 button[type=submit]{
     margin-top: 0;
 }
-=======
->>>>>>> ad1781fba7fccaedfed66e590d09450a13e90cc6
 }

@@ -25,24 +25,18 @@ function preencheConteudo(){
             break;
 
 			case 'botaoTaverna':
-<<<<<<< HEAD
 			if($(window).width() > 990){
 			$('body').css ({ "background":"url('../../imagens/fundoTaverna.jpg') no-repeat", "background-size":"cover"});
 			}
-=======
 			$('body').css ({ "background":"url('../../imagens/fundoTaverna.jpg') no-repeat", "background-size":"cover"});
->>>>>>> ad1781fba7fccaedfed66e590d09450a13e90cc6
 			$('.taverna').slideDown();
 			break;
 
 			case 'botaoRegras':
-<<<<<<< HEAD
 			if($(window).width() > 990){
 			$('body').css ({ "background":"url('../../imagens/fundoBlacksmith.png') no-repeat", "background-size":"cover"});
 			}
-=======
 			$('body').css ({ "background":"url('../../imagens/fundoBlacksmith.png') no-repeat", "background-size":"cover"});
->>>>>>> ad1781fba7fccaedfed66e590d09450a13e90cc6
 			$('.regras').slideDown();
 			break;
             }
