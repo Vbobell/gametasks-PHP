@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+.menuLateral{
+	background-color:#000;
+    padding: 0;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#menu-toggle{
+    width:100%;
+    border-radius:0;
+}
+.botoesCabecalho{
+    display: inline-block;
+}
+.mostra{
+	width:100%;
+	position:relative;
+}
+div.botoesInternosMenu, div#mostraConteudo{
+    display:none;
+}
+.sectionFundo{
+	background:url('../imagens/fundo2.jpg') no-repeat;
+	background-size: cover;
+}
+div.botoesInternosMenu,div.botoesCabecalho,li.botoesMenu,section.sectionFundo,#mostraConteudo{
+	padding:0;
+}
+div.botoesCabecalho,.cabecalhoTabela {
+    color: #fff;
+    cursor:pointer;
+}
+div.botoesCabecalho:hover{
+    background-color: rgba(129, 144, 141,0.8);
+}
+#mostraConteudo{
+	background-color: rgba(255, 255, 255,0.8);
+	position: relative;
+	top: 40px;
+}
+#mostraConteudo table{
+    margin:0;
+}
+.cabecalhoTabela{
+    background-color: #000;
+}
+.usuarioFoto{
+    background-color: rgba(129, 144, 141,0.8);
+    text-align: center;
+    width: 10%;
+	padding: 5px;
+	position: fixed;
+    top: 20px;
+	right: 15px;
+	border-radius: 100%;
+}
+.usuarioFoto img {
+    width: 100%;
+
+}
+/*Media mobile*/
+@media all and (max-width:767px){
+
+}

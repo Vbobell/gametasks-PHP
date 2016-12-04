@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+    background:url('../imagens/fundo2.jpg') no-repeat;
+	background-size: cover;
+}
+@font-face {
+  font-family: 'Seagram';
+  src:  url('../fonts/Seagram-tfb.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+    font-family: 'Seagram';
+}
+/*MENU LATERAL*/
+.menuLateral{
+    /*background:url('../imagens/fundoPedra.jpg') repeat-y;
+    background-size:contain;*/
+	background-color:rgba(255, 255, 255,0.2);
+    padding: 0;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#menu-toggle{
+    width:100%;
+    border-radius:0;
+}
+.botoesCabecalho{
+    display: inline-block;
+}
+li.botoesMenu a {
+    padding: 10px 0;
+    color:#fff;
+}
+li.botoesMenu img{
+    width: 45px;
+}
+li.botoesMenu p {
+    display: inline-block;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 1.2em;
+}
+.btn-warning{
+    margin-right:10px;
+}
+.mostra{
+	width:100%;
+	position:relative;
+}
+div.botoesInternosMenu, div#mostraConteudo{
+    display:none;
+}
+div.botoesInternosMenu,div.botoesCabecalho,li.botoesMenu,section.sectionFundo,#mostraConteudo{
+	padding:0;
+}
+div.botoesCabecalho,.cabecalhoTabela {
+    color: #fff;
+    cursor:pointer;
+}
+div.botoesCabecalho:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+/*FIM LATERAL*/
+/*MODAL ADICIONAR*/
+.modalAdicionar,.modalExcluir {
+    background: url('../imagens/pergaminhoFundo.png') no-repeat;
+    background-size: 100% 100%;
+    padding: 40px 0;
+    width: 50%;
+    top: 50px;
+    left: 25%;
+    position: fixed;
+    display: none;
+    z-index: 10;
+}
+.modalExcluir {
+    color:#fff;
+    padding: 150px 0;
+    text-align: center;
+}
+.modalExcluir form {
+    padding: 0 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+.modalExcluir form p {
+    color: #000;
+}
+.modalAdicionar h2 {
+    color: #000;
+    padding: 10px;
+    margin: 10px 95px 15px;
+    display: inline-block;
+}
+.form-horizontal {
+    width: 65%;
+    margin: 0 auto;
+}
+.form-horizontal .labelForm{
+    text-align: left;
+    font-weight: 100;
+    color:#fff;
+}
+.modalAdicionar .col-sm-12.text-center {
+    top: -15px;
+}
+.form-group button{
+    width:50%;
+}
+figure.fechar {
+    width:20%;
+    text-align: right;
+    display: inline-block;
+}
+figure.fechar img {
+    width: 30%;
+    cursor: pointer;
+}
+/*FIM MODAL ADICIONAR*/
+
+figure[data-item-elemento="personagem"] {
+    width: 20%;
+    text-align: center;
+    cursor:pointer;
+}
+figure[data-item-elemento="personagem"]:hover,.active {
+    background-color:rgba(255,255,255,0.2);
+}
+figure[data-item-elemento="personagem"] img{
+    float:none;
+}
+.historia p {
+    display: none;
+    font-size: 22px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px;
+}
+.taverna,.regras {
+    background-color: rgba(255, 255, 255,0.2);
+    display: none;
+    width:71%;
+    padding: 0;  
+    color: #000;
+}
+.regras{
+    overflow-y: scroll;
+}
+div#conteudo {
+    overflow-y: scroll;
+    padding: 0;
+    top: 20px;
+}
+#mostraConteudo{
+	background-color: rgba(255, 255, 255,0.8);
+	position: relative;
+}
+#mostraConteudo table{
+    margin:0;
+}
+.botoes div {
+    white-space: normal;
+}
+.comentario {
+    width: 60%;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    overflow-y: scroll;
+}
+.table tbody tr td{
+    vertical-align: middle;
+}
+.cabecalhoTabela{
+    background-color: #000;
+}
+.infoUsuario {
+    width: 15%;
+    background-size: 150% 65% !important;
+    background-position: -50px -72px !important;
+    height: 425px;
+    right: -20px;
+    position: absolute;
+    z-index: -1;
+}
+.perfil {
+    padding: 215px 0 0 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255,0.2);
+    text-align:center;
+    color: #fff;
+    display: none;
+}
+.usuarioFoto{
+    text-align: center;
+    width: 10%;
+	padding: 5px;
+    border-radius: 100%;
+    top: 20px;
+	right: 15px;
+    position: fixed;
+    cursor:pointer;
+    transition: 1s ease;
+}
+.usuarioFoto:hover{
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(242,246,248,1)), color-stop(65%, rgba(165,176,184,1)), color-stop(100%, rgba(165,176,184,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(242,246,248,1) 0%, rgba(165,176,184,1) 65%, rgba(165,176,184,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(242,246,248,1) 0%, rgba(165,176,184,1) 65%, rgba(165,176,184,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(242,246,248,1) 0%, rgba(165,176,184,1) 65%, rgba(165,176,184,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(242,246,248,1) 5%, rgba(165,176,184,0.1) 60%, rgba(165,176,184,0.1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#a5b0b8', GradientType=1 );
+     transition: 1s ease;
+}
+.usuarioFoto img {
+    width: 100%;
+}
+.perfil p,.regras p,figure[data-item-elemento="personagem"] p{
+    color:#fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #000;
+}
+.perfil span,.perfil a,.taverna h2,.regras h2,figure[data-item-elemento="personagem"] span {
+    color: darkkhaki;
+    text-shadow: 1px 1px 1px #000;
+}
+/*Media mobile*/
+
+@media all and (max-width:767px){
+body {
+   background:url('../imagens/fundoPedra.jpg') repeat-y;
+   background-size: contain;       
+}
+header,section{
+    display:inline-block;
+}
+header.menuLateral{
+    top: 480px;
+}
+.conteudo .container-fluid,.conteudo .container-fluid {
+    padding: 0;
+}
+.usuario{
+    width: 100%;
+    top:-480px;
+}
+.usuarioFoto{
+   width: 65%;
+   left: 0;
+   border-radius:0;
+   margin: 0 auto;
+}
+.usuario,.usuarioFoto {
+    position: absolute;
+}
+.infoUsuario{
+    width: 100%;
+    background-size: 150% 90% !important;
+    background-position: -80px -72px !important;
+    right: 0;
+}
+.perfil {
+    padding: 315px 0 0 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+}
+.perfil p {
+    width: 40%;
+    display: inline-block;
+}
+.conteudo{
+    top:480px;
+}
+.modalAdicionar, .modalExcluir{
+    background-size: 130% 100%;
+    background-position: -50px;
+    width: 100%;
+    padding:0;
+    position:relative;
+    top: 330px;
+    left: 0;
+}
+.modalExcluir{
+    background-size: 145% 100%;
+    background-position: -55px;
+    padding: 70px 0;
+    left: 45px;
+}
+.modalAdicionar h2{
+    padding: 10px 0;
+    margin:0;
+}
+.modalExcluir form{
+    width: 100%;
+}
+.taverna, .regras{
+    width:100%;
+    top:480px;
+}
+figure[data-item-elemento="personagem"],figure[data-item-elemento="personagem"] img{
+    width: 100%;
+}
+
+}
+/*Media desktop*/
+@media all and (min-width:1023px){
+
+}

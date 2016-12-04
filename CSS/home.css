@@ -1,0 +1,62 @@
+header.login{
+    background: url('../imagens/pergaminhoFundo.png') no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    height: 60%;
+    left: 35%;
+}
+header.login form {
+    position: relative;
+}
+header.login form,header.login{
+    top: 20%;
+}
+.form-horizontal .labelForm {
+    text-align: center;
+    font-size:1.5em;
+    text-shadow: 1px 1px 1px #000;
+}
+button[type=submit]{
+    margin-top: 5%;
+}
+
+@media all and (max-width:767px){
+<<<<<<< HEAD
+body{
+    background-size: cover;
+}
+header.login{
+    background-size: 140% 100%;
+    background-position: -65px 0;
+    height: 85%;
+=======
+
+header.login{
+    background-size: 140% 100%;
+    background-position: -75px 0;
+    height: 80%;
+>>>>>>> ad1781fba7fccaedfed66e590d09450a13e90cc6
+    top: 5%;
+    left: 0%;
+    padding: 0;
+}
+header.login form{
+    width: 90%;
+}
+.form-horizontal .labelForm {
+    font-size: 2.2em;
+}
+.form-control {
+    padding: 30px 15px;
+    font-size: 1.5em;
+}
+button[type=submit]{
+    font-size: 1.8em;
+}
+<<<<<<< HEAD
+button[type=submit]{
+    margin-top: 0;
+}
+=======
+>>>>>>> ad1781fba7fccaedfed66e590d09450a13e90cc6
+}
