@@ -36,7 +36,6 @@ class QuadroUsuario extends Usuario{
                     '<td>'.$campo["valorXP"].'</td>'.
                     '<td>'.$campo["status"].'</td>'.
                     '<td style="width:80px;">'.'<div class="botoes"><div style="width:80%;" class="btn btn-warning btn btn-warning" onclick="adicionarStatus('.($campo["idTarefa"]).','.($campo["idEquipe"]).')">relatório de missões</div></div>'.'</td>'.
-                    '<td style="width:80px;">'.'<div class="botoes"><div class="btn btn-warning btn btn-warning" onclick="adicionarStatus('.($campo["idTarefa"]).','.($campo["idEquipe"]).')">relatório de missões</div></div>'.'</td>'.
                 '</tr>';
             
             $mostraTarefa[] = $estrutura; 	
